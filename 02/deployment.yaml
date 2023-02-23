@@ -22,3 +22,5 @@ spec:
       containers:
       - name: frontend-container
         image: nginx
+        ports:
+        - containerPort: 80
