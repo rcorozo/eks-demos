@@ -5,6 +5,7 @@ metadata:
     environment: test
   name: testdeploy
 spec:
+  # revisionHistoryLimit: 0
   replicas: 5
   selector:
     matchLabels:
